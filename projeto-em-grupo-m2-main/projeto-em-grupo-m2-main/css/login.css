@@ -1,0 +1,98 @@
+/*Login*/
+
+#login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+}
+
+.login {
+    width: 30vw;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(85, 135, 201);
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn-login {
+    background: rgb(29, 92, 173);
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*Recuperação de senha*/
+
+#recuperacao {
+    height: 72vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.recuperacao {
+    width: 30vw;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(85, 135, 201);
+}
+
+#rec-senha {
+    font-size: small;
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.582);
+}
+
+h6 {
+    font-size: smaller;
+    text-align: center;
+}
+
+#btnRec {
+    background: rgb(29, 92, 173);
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.fundo {
+    opacity: .6;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
